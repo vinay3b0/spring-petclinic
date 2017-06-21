@@ -266,4 +266,29 @@
       </plugin>
     </plugins>
   </reporting>
+  
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>HOME-PC-releases</name>
+        <url>http://localhost:8081/artifactory/spring-petclinic</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>HOME-PC-snapshots</name>
+        <url><distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>HOME-PC-releases</name>
+        <url>http://localhost:8081/artifactory/spring-petclinic</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>HOME-PC-snapshots</name>
+        <url>http://localhost:8081/artifactory/spring-petclinic</url>
+    </snapshotRepository>
+ </distributionManagement></url>
+    </snapshotRepository>
+  </distributionManagement>
+  
 </project>
